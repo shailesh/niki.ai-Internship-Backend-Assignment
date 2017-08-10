@@ -17,15 +17,19 @@ output it modulo 10^9+7.
 
 ## Constraints:
 1 <= t <= 10^3
+
 1 <= n <= 10^15
 
 ## Input Example:
 2
+
 2
+
 3
 
 ## Output Example:
 3
+
 5
 
 ## Explanation:
@@ -34,6 +38,7 @@ Second test case is same as provided in problem statement.
 
 ### Subtask 1 (40 points):
 t = 1
+
 1 <= n <= 10^4
 
 ### Subtask 2 (60 points):
