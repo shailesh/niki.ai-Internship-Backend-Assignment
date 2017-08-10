@@ -6,11 +6,12 @@
 using namespace std;
  
 void multiply(long long int F[2][2], long long int M[2][2]);
- 
 void power(long long int F[2][2], long long int n);
- 
+
+// function to calculate no. of strings such that there are no consecutive 0's
 long long int modfib(long long int n)
 {
+	// Base cases
   long long int F[2][2] = {{1,1},{1,0}};
   if (n == 0)
     return 0;
@@ -49,6 +50,7 @@ void multiply(long long int F[2][2], long long int M[2][2])
   F[1][1] = w;
 }
  
+//Main Function
 int main()
 {
 	freopen("in.txt","r",stdin);
@@ -58,7 +60,7 @@ int main()
 	{
 		long long int num;
 		cin >> num;
-		cout << modfib(num) << endl;
+		cout << modfib(num) << endl; //no. of strings such that there are no consecutive 0's
 	}
 	return 0;
 }
