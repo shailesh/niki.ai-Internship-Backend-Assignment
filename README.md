@@ -1,4 +1,4 @@
-### niki.ai-Internship-Backend-Assignment
+### Niki.ai-Internship-Backend-Assignment
 
 ## Problem Statement:
 Recently Manu visited the byteland. He was amazed with lots of different varieties of bytes he
